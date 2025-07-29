@@ -1,0 +1,15 @@
+.button_component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border:none ;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(71, 71, 222);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer;
+}

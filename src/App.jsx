@@ -17,11 +17,12 @@ function App() {
       {/* {Lesson_02} */}
       {/* <Lesson_02 /> */}
       {/* <Lesson_3/> */}
+      <Lesson_04 />
 
 
       {/* {Homeworks} */}
       {/* <Homework_2/> */}
-      <Homework_03 />
+      {/* <Homework_03 /> */}
       
       
       

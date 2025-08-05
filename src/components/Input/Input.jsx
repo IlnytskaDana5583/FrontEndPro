@@ -8,17 +8,20 @@
 
 import "./styles.css";
 
-function Input({ name, type = "text", placeholder = "", label = "" }) {
+function Input({id, name, type = "text", placeholder = "", label = "" }) {
   return (
-    <label className="input_wrapper">
-      {label}
-      <input
-        className="input"
+    <div className="input_wrapper">
+      <label className="input_label" htmlFor={id} >
+        {label}
+      </label>
+      <input  className="input"
+        id={id}
         name={name}
         type={type}
         placeholder={placeholder}
+      
       />
-    </label>
+    </div>
   );
 }
 export default Input;

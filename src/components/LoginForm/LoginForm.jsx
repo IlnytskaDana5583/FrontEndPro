@@ -18,6 +18,7 @@ function LoginForm() {
       <h2 className="logn_titile">Login form</h2>
 
       <Input
+        id="email-id"
         name="email"
         type="email"
         placeholder="Enter your email"
@@ -25,12 +26,14 @@ function LoginForm() {
       />
 
       <Input
+        id="password-id"
         name="password"
         type="password"
         placeholder="Enter your password"
         label="Password"
       />
       <Button buttonName="Login" type="submit" />
+      
     </form>
   );
 }

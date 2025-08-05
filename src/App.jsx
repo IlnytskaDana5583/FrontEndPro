@@ -5,6 +5,8 @@ import Homework_2 from "./homeworks/Homework_2/Homework_2";
 import Lesson_3 from "./lessons/Lesson_03/Lesson_03";
 import Homework_03 from "./homeworks/Homework_03/Homework_03";
 import Lesson_04 from "./lessons/Lesson_04/Lesson_04";
+import Homework_04 from "./homeworks/Homework_04/Homework_04";
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
       {/* {Homeworks} */}
       {/* <Homework_2/> */}
       {/* <Homework_03 /> */}
+      <Homework_04 />
       
       
       

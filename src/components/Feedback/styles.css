@@ -1,0 +1,33 @@
+.counter_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 400px;
+  height: fit-content;
+  border: 1px solid black;
+  background-color: cornflowerblue;
+  color: blueviolet;
+  padding: 20px;
+  border-radius: 10px;
+}
+.button_click {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  color: rgb(51, 48, 48);
+}
+.reset_button {
+  width: 150px;
+}
+.count {
+  background-color: rgb(89, 89, 194);
+}
+.reset {
+  color: blue;
+  margin-right: 30px;
+  font-size: 30px;
+}

@@ -25,7 +25,7 @@ function Feedback() {
     setDislikes(0);
   };
 
-  const onLikes = () => {
+  const onLikes = () => {//callback
     setLikes((prev) => {
       return prev + 1;
     });
